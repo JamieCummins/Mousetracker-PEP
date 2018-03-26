@@ -413,7 +413,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="crosshairs.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="crosshairs_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -433,7 +433,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word1.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word1_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -453,7 +453,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word2.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word2_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -473,7 +473,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word3.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word3_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -493,7 +493,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word4.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word4_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -513,7 +513,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word5.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word5_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -533,7 +533,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word6.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word6_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -553,7 +553,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="word7.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="word7_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -573,7 +573,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="condition" valType="str"/>
-        <Param name="startVal" updates="None" val="blank.status==FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="blank_2.status==FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -593,7 +593,7 @@
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="probe_word.status == FINISHED" valType="code"/>
+        <Param name="startVal" updates="None" val="probe_word_2.status == FINISHED" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.2" valType="code"/>
       </TextComponent>
@@ -601,9 +601,9 @@
         <Param name="Begin Experiment" updates="constant" val="from psychopy import visual&amp;#10;import numpy as np &amp;#10;from psychopy import visual, core, event&amp;#10;&amp;#10;mouse = event.Mouse()&amp;#10;" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_5" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="mouse = event.Mouse()&amp;#10;mouse.setPos([0,-.8]) ## Set mouse position outside of mouse_tester range&amp;#10;&amp;#10;tmouse = mouse.getPos()&amp;#10;tclock = core.Clock()&amp;#10;mouse_test = 0&amp;#10;check_time = 0&amp;#10;accuracy = 0" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="## Add accuracy data to data file &amp;#10;trials.addData('accuracy', accuracy)" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="## Add accuracy data to data file &amp;#10;practice_trials.addData('accuracy', accuracy)&amp;#10;if mouse_test &gt; 0:&amp;#10;    practice_trials.addData('init.time', 'slow')&amp;#10;if mouse_test == 0:&amp;#10;    practice_trials.addData('init.time', 'ok')" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Each Frame" updates="constant" val="import numpy as np &amp;#10;from psychopy import visual, core, event&amp;#10;&amp;#10;### Hide mouse at start of trial&amp;#10;if probe_word.status == NOT_STARTED:&amp;#10;    event.Mouse(visible = False)&amp;#10;&amp;#10;### Show mouse and set mouse position, reset tclock component for timing&amp;#10;if probe_word.status == STARTED and check_time == 0:&amp;#10;    event.Mouse(visible = True)&amp;#10;    mouse.setPos([0, -.95])&amp;#10;    tclock.reset()&amp;#10;    check_time = check_time + 1&amp;#10;&amp;#10;## If mouse hasn't moved after specified time, add 1 to mouse_test&amp;#10;## (which leads to the execution of the 'warning' routine&amp;#10;if tclock.getTime() &gt; .6 and mouse_tester.contains(mouse):&amp;#10;    mouse_test = mouse_test + 1&amp;#10;&amp;#10;&amp;#10;### Sets parameters for true and false criteria by condition&amp;#10;if condition == &quot;tc&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;ti&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;te&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fc&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fi&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fe&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;&amp;#10;## Add data to data file &amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;&amp;#10;&amp;#10;## Ends routine after presentation of 'wrong' feedback&amp;#10;if wrong.status == FINISHED:&amp;#10;    continueRoutine=False" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="import numpy as np &amp;#10;from psychopy import visual, core, event&amp;#10;&amp;#10;### Hide mouse at start of trial&amp;#10;if probe_word_2.status == NOT_STARTED:&amp;#10;    event.Mouse(visible = False)&amp;#10;&amp;#10;### Show mouse and set mouse position, reset tclock component for timing&amp;#10;if probe_word_2.status == STARTED and check_time == 0:&amp;#10;    event.Mouse(visible = True)&amp;#10;    mouse.setPos([0, -.95])&amp;#10;    tclock.reset()&amp;#10;    check_time = check_time + 1&amp;#10;&amp;#10;## If mouse hasn't moved after specified time, add 1 to mouse_test&amp;#10;## (which leads to the execution of the 'warning' routine&amp;#10;if tclock.getTime() &gt; .6 and mouse_tester_2.contains(mouse):&amp;#10;    mouse_test = mouse_test + 1&amp;#10;&amp;#10;&amp;#10;### Sets parameters for true and false criteria by condition&amp;#10;if condition == &quot;tc&quot;:&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;ti&quot;:&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;te&quot;:&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fc&quot;:&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fi&quot;:&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fe&quot;:&amp;#10;    if mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;&amp;#10;## Add data to data file &amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(false_rect_2, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(true_rect_2, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;&amp;#10;&amp;#10;## Ends routine after presentation of 'wrong' feedback&amp;#10;if wrong_2.status == FINISHED:&amp;#10;    continueRoutine=False" valType="extendedCode"/>
       </CodeComponent>
       <MouseComponent name="mouse_2">
         <Param name="name" updates="None" val="mouse_2" valType="code"/>
@@ -614,7 +614,7 @@
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="condition" valType="str"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="probe_word.status==STARTED" valType="code"/>
+        <Param name="startVal" updates="None" val="probe_word_2.status==STARTED" valType="code"/>
         <Param name="saveMouseState" updates="None" val="every frame" valType="str"/>
       </MouseComponent>
       <PolygonComponent name="mouse_tester_2">
@@ -946,7 +946,7 @@
         <Param name="Begin Experiment" updates="constant" val="from psychopy import visual&amp;#10;import numpy as np &amp;#10;from psychopy import visual, core, event&amp;#10;&amp;#10;mouse = event.Mouse()&amp;#10;" valType="extendedCode"/>
         <Param name="name" updates="None" val="code" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="mouse = event.Mouse()&amp;#10;mouse.setPos([0,-.8]) ## Set mouse position outside of mouse_tester range&amp;#10;&amp;#10;tmouse = mouse.getPos()&amp;#10;tclock = core.Clock()&amp;#10;mouse_test = 0&amp;#10;check_time = 0&amp;#10;accuracy = 0" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="## Add accuracy data to data file &amp;#10;trials.addData('accuracy', accuracy)" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="## Add accuracy data to data file &amp;#10;main_task.addData('accuracy', accuracy)&amp;#10;if mouse_test &gt; 0:&amp;#10;    main_task.addData('init.time', 'slow')&amp;#10;if mouse_test == 0:&amp;#10;    main_task.addData('init.time', 'ok')" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="import numpy as np &amp;#10;from psychopy import visual, core, event&amp;#10;&amp;#10;### Hide mouse at start of trial&amp;#10;if probe_word.status == NOT_STARTED:&amp;#10;    event.Mouse(visible = False)&amp;#10;&amp;#10;### Show mouse and set mouse position, reset tclock component for timing&amp;#10;if probe_word.status == STARTED and check_time == 0:&amp;#10;    event.Mouse(visible = True)&amp;#10;    mouse.setPos([0, -.95])&amp;#10;    tclock.reset()&amp;#10;    check_time = check_time + 1&amp;#10;&amp;#10;## If mouse hasn't moved after specified time, add 1 to mouse_test&amp;#10;## (which leads to the execution of the 'warning' routine&amp;#10;if tclock.getTime() &gt; .6 and mouse_tester.contains(mouse):&amp;#10;    mouse_test = mouse_test + 1&amp;#10;&amp;#10;&amp;#10;### Sets parameters for true and false criteria by condition&amp;#10;if condition == &quot;tc&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;ti&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;te&quot;:&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fc&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fi&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;if condition == &quot;fe&quot;:&amp;#10;    if mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;        continueRoutine=False&amp;#10;    if mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;        continueRoutine=True&amp;#10;&amp;#10;## Add data to data file &amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;    accuracy = &quot;correct&quot;&amp;#10;if (condition == &quot;tc&quot; or condition == &quot;ti&quot; or condition == &quot;te&quot;) and mouse.isPressedIn(false_rect, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;if (condition == &quot;fc&quot; or condition == &quot;fi&quot; or condition == &quot;fe&quot;) and mouse.isPressedIn(true_rect, buttons=[0]):&amp;#10;    accuracy = &quot;incorrect&quot;&amp;#10;&amp;#10;&amp;#10;## Ends routine after presentation of 'wrong' feedback&amp;#10;if wrong.status == FINISHED:&amp;#10;    continueRoutine=False" valType="extendedCode"/>
       </CodeComponent>
@@ -1352,7 +1352,7 @@
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="conditions" updates="None" val="[{'word_3': u'IS', 'word_2': u'CUP', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'BOAT', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.22500000000000001, 'duration_1': 0.17499999999999999, 'condition': u'tc'}, {'word_3': u'IS', 'word_2': u'CUP', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'BOAT', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.22500000000000001, 'duration_1': 0.17499999999999999, 'condition': u'fi'}, {'word_3': u'IS', 'word_2': u'BOAT', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'CUP', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.25, 'duration_1': 0.17499999999999999, 'condition': u'fc'}, {'word_3': u'IS', 'word_2': u'BOAT', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'CUP', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.25, 'duration_1': 0.17499999999999999, 'condition': u'ti'}, {'word_3': u'IS', 'word_2': u'BEE', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'HOUSE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.22500000000000001, 'duration_1': 0.17499999999999999, 'condition': u'tc'}, {'word_3': u'IS', 'word_2': u'BEE', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'HOUSE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.22500000000000001, 'duration_1': 0.17499999999999999, 'condition': u'fi'}, {'word_3': u'IS', 'word_2': u'HOUSE', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'BEE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.32500000000000001, 'duration_3': 0.20000000000000001, 'duration_2': 0.27500000000000002, 'duration_1': 0.17499999999999999, 'condition': u'fc'}, {'word_3': u'IS', 'word_2': u'TOMATO', 'word_1': u'A', 'probe': u'??TRUE OR FALSE??', 'word_7': u'TRUCK', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.17499999999999999, 'duration_5': 0.25, 'duration_4': 0.29999999999999999, 'duration_3': 0.20000000000000001, 'duration_2': 0.29999999999999999, 'duration_1': 0.17499999999999999, 'condition': u'fe'}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word_3': u'IS', 'word_2': u'CUP', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'BOAT', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.225, 'duration_1': 0.175, 'condition': u'tc'}, {'word_3': u'IS', 'word_2': u'CUP', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'BOAT', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.225, 'duration_1': 0.175, 'condition': u'fi'}, {'word_3': u'IS', 'word_2': u'BOAT', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'CUP', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.25, 'duration_1': 0.175, 'condition': u'fc'}, {'word_3': u'IS', 'word_2': u'BOAT', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'CUP', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.25, 'duration_1': 0.175, 'condition': u'ti'}, {'word_3': u'IS', 'word_2': u'BEE', 'word_1': u'A', 'probe': u'TRUE', 'word_7': u'HOUSE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.225, 'duration_1': 0.175, 'condition': u'tc'}, {'word_3': u'IS', 'word_2': u'BEE', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'HOUSE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.225, 'duration_1': 0.175, 'condition': u'fi'}, {'word_3': u'IS', 'word_2': u'HOUSE', 'word_1': u'A', 'probe': u'FALSE', 'word_7': u'BEE', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'SMALLER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.325, 'duration_3': 0.2, 'duration_2': 0.275, 'duration_1': 0.175, 'condition': u'fc'}, {'word_3': u'IS', 'word_2': u'TOMATO', 'word_1': u'A', 'probe': u'??TRUE OR FALSE??', 'word_7': u'TRUCK', 'word_6': u'A', 'word_5': u'THAN', 'word_4': u'LARGER', 'duration_7': 0.5, 'duration_6': 0.175, 'duration_5': 0.25, 'duration_4': 0.3, 'duration_3': 0.2, 'duration_2': 0.3, 'duration_1': 0.175, 'condition': u'fe'}]" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="start_button"/>
