@@ -1,2 +1,2 @@
 # Mousetracker-PEP
-Propositional Evaluation Paradigm (PEP) with mousetracker implementation. Programmed in PsychoPy.
+Propositional Evaluation Paradigm (PEP) with mousetracker implementation. Programmed in Python.
